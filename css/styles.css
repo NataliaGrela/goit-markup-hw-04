@@ -205,7 +205,7 @@ a:link {
   margin-top: 20px;
 }
 
-.tittle-color {
+.title-color {
   min-width: 1200px;
   /* height: 600px; */
   background: #2f303a;
@@ -218,7 +218,7 @@ a:link {
   
 }
 
-.main-tittle {
+.main-title {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -391,7 +391,7 @@ button[type='button'] {
   margin-bottom: 32px;
 }
 
-.second-tittle {
+.second-title {
   margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
@@ -410,7 +410,7 @@ button[type='button'] {
   justify-content: center;
 }
 
-.last-tittle {
+.last-title {
   margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;

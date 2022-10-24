@@ -182,7 +182,7 @@ a:link {
 .foot-name:hover,
 .foot-name:focus {
   color: rgb(118, 164, 207);
-  transition: all 0, 2s;
+  transition: all 2s;
 }
 
 .foot-menu-color {
@@ -229,7 +229,7 @@ a.footer-contact {
 }
 .footer-second-section {
   margin: 0 auto;
-  justify-content: column;
+  flex-direction: column;
   justify-content: flex-start;
   margin-left: 70px;
 }
@@ -563,7 +563,6 @@ button[type='button'] {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition: all 0, 2s;
 }
 
 .section-lorem-list {
@@ -684,7 +683,6 @@ li > .name-description {
 .social-icon:hover,
 .social-icon:focus {
   fill: white;
-  transition: all 0, 2s;
 }
 
 .social-link {
@@ -701,7 +699,6 @@ li > .name-description {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--item-color);
-  transition: all 0, 2s;
 }
 
 .gap {

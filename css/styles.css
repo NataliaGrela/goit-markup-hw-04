@@ -155,14 +155,21 @@ a:link {
 
 .container-footer {
   min-width: 1200px;
-  margin: auto;
   display: flex;
   align-items: flex-start;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
+  /* padding-left: 215px; */
   font-style: normal;
   background: var(--third-background);
+}
+
+.footer-section {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
 }
 
 .fotter-address {
@@ -308,6 +315,8 @@ a.footer-contact {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .name-color {
@@ -369,7 +378,8 @@ nav .menu-color {
 
 .btn-hover {
   border: none;
-  background: #ffffff;
+  background: #F5F4FA;
+
 }
 
 .btn-hover:hover {
@@ -403,13 +413,13 @@ button[type='button'] {
   /* padding-bottom: 94px; */
 }
 
-.header-container {
-  /* width: 1200px;
-  margin: auto; */
-  /* padding-top: 94px; */
+/* .header-container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 94px;
   padding-bottom: 25px;
   padding-top: 24px;
-}
+} */
 
 .header-content {
   width: 1200px;
